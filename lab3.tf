@@ -4,7 +4,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rg" {
   name     = "az104-rg3"
-  location = "East US"
+  location = "Germany West"
 }
 
 resource "azurerm_managed_disk" "disk1" {
