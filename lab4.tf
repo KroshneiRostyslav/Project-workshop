@@ -119,9 +119,9 @@ resource "azurerm_private_dns_zone_virtual_network_link" "link" {
 }
 
 resource "azurerm_private_dns_a_record" "sensorvm" {
-  name                = "sensorvm"
-  zone_name           = azurerm_private_dns_zone.private.name
+  name = "sensorvm"
+  zone_name = azurerm_private_dns_zone.private.name
   resource_group_name = azurerm_resource_group.rg.name
-  ttl                 = 1
-  records             = ["10.1.1.4"]
+  ttl = 1
+  records  = ["10.1.1.4"]
 }
