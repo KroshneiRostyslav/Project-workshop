@@ -4,7 +4,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rg" {
   name     = "az104-rg4"
-  location = "East US"
+  location = "Poland Central"
 }
 
 resource "azurerm_virtual_network" "coreservices" {
