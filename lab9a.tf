@@ -15,7 +15,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rg" {
   name     = "az104-rg9"
-  location = "East US"
+  location = "Poland Central"
 }
 
 resource "azurerm_service_plan" "plan" {
